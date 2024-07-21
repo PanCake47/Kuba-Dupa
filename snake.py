@@ -1,6 +1,8 @@
 import pygame
 from random import randint
 
+# Magiczny Kuba
+
 # Setup
 
 pygame.init()
