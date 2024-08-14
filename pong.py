@@ -2,6 +2,8 @@ import pygame
 import sys
 from random import uniform
 
+# ignore resizable event i just wanted to try it and didn't really do anything with it 
+
 # setup 
 
 pygame.init()
