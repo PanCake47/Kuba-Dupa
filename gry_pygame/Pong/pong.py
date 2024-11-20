@@ -21,7 +21,7 @@ class Player1(pygame.sprite.Sprite):
         super().__init__(groups)
         self.image = pygame.Surface([120, 20])
         self.image.fill('white')
-        self.rect = self.image.get_frect(midbottom = (s_w / 2, s_h))
+        self.rect = self.image.get_rect(midbottom = (s_w / 2, s_h))
         self.direction = pygame.Vector2()
         self.speed = 450
 
@@ -42,7 +42,7 @@ class Player2(pygame.sprite.Sprite):
         super().__init__(groups)
         self.image = pygame.Surface([120, 20])
         self.image.fill('white')
-        self.rect = self.image.get_frect(midtop = (s_w / 2, 0))
+        self.rect = self.image.get_rect(midtop = (s_w / 2, 0))
         self.direction = pygame.Vector2()
         self.speed = 450
 
@@ -63,7 +63,7 @@ class Ball(pygame.sprite.Sprite):
         super().__init__(groups)
         self.image = pygame.Surface([30, 30])
         self.image.fill('green')
-        self.rect = self.image.get_frect(center = (s_w / 2, s_h / 2))
+        self.rect = self.image.get_rect(center = (s_w / 2, s_h / 2))
         self.velocity = pygame.Vector2(uniform(-1, 1), uniform(-1, 1)).normalize() * 17
         self.speed = 17
 

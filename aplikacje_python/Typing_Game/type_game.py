@@ -1,6 +1,10 @@
 import tkinter as tk
 import time
 import sqlite3
+import subprocess
+
+def db_setup():
+    subprocess(["python3", "words.py"])
 
 class TypingGame:
     def __init__(self, root):
