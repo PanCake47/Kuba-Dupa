@@ -10,6 +10,9 @@ Simple game that you could say by name is just guessing numbers.
 Typing_Game:
 It's a speed typing application to test your writing skills.
 
+Vector_Transformer:
+It is a script to picture 2d vectors transformed using matrices. You can define 3 values: matrix, vector and rotation angle. It is the 1.0 version, I'm planning to upgrade it by adding possibility to work on 3d vectors, but right now it's 2 am and I wake up at 6:40 so that shall be it for now.  
+
 2. Second folder "gry_pygame" is reserved for my simple game projects that I made using the python library "pygame-ce".
 
 Juke_The_Stars:
