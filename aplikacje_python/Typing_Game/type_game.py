@@ -88,3 +88,6 @@ class TypingGame:
 root = tk.Tk()
 app = TypingGame(root)
 root.mainloop()
+
+if __name__ == "__main__":
+    db_setup()
